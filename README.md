@@ -23,7 +23,7 @@ NOTE: This list is so long that it will take some time for it to be synced to my
   - [cs-other](#cs-other)
   - [rust](#rust)
 - [talks-videos](#talks-videos)
-- [carrer-and-student-resources](#carrer-and-student-resources)
+- [career-and-student-resources](#career-and-student-resources)
 
 ---
 
@@ -137,7 +137,6 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 
 ### math-blogs
 - https://rjlipton.wpcomstaging.com/2022/04/05/blogs-that-are-current/
-- 
 - https://11011110.github.io/blog/
 - https://mathstrek.blog/
 - https://www.math-only-math.com/math-blog.html
@@ -255,6 +254,6 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 - https://www.youtube.com/watch?v=9syvZr-9xwk&list=PLUl4u3cNGP60_JNv2MmK3wkOt9syvfQWY&t=1795s
 ---
 
-## carrer-and-student-resources
+## career-and-student-resources
 
 
