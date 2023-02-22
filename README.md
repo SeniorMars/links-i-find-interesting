@@ -173,7 +173,7 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 - http://bit-player.org/2022/the-middle-of-the-square
 - https://www.cut-the-knot.org/pythagoras/torque.shtml
 - https://math.berkeley.edu/~wu/
-- 
+
 
 ---
 ## cool-cs-theory
@@ -228,6 +228,48 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 ### cs-other
 
 ### rust
+- https://rust-unofficial.github.io/patterns/ (*)
+- https://dylanj.xyz/posts/rust-coq-opaque-types/ (*)
+- https://github.com/rust-lang/rust/issues/84056#issuecomment-1184725924 (*)
+- https://itsallaboutthebit.com/arc-mutex/ (*)
+- https://blog.yoshuawuyts.com/unsafe-syntax/ (*)
+- https://recursion.wtf/posts/rust_schemes/ (*)
+- https://recursion.wtf/posts/rust_schemes_2/ (*)
+- https://sdleffler.github.io/RustTypeSystemTuringComplete/ (*)
+- https://www.thecodedmessage.com/posts/2022-07-14-programming-unwrap/ (*)
+- https://zdimension.fr/how-i-learned-to-stop-worrying-and-love-macros/ (*)
+- http://cosmic.mearie.org/2014/01/periodic-table-of-rust-types/
+- https://blog.m-ou.se/rust-cpp-concurrency/
+- https://cglab.ca/%7Eabeinges/blah/rust-btree-case/
+- https://fasterthanli.me/articles/proc-macro-support-in-rust-analyzer-for-nightly-rustc-versions
+- https://github.com/Byron/gitoxide
+- https://github.com/Kindelia/HVM
+- https://github.com/RWTH-OS/eduOS-rs
+- https://github.com/RayMarch/ferris3d
+- https://github.com/charliermarsh/ruff
+- https://github.com/dtolnay/trybuild
+- https://github.com/hermitcore/rusty-hermit
+- https://github.com/huhu/rust-search-extension
+- https://github.com/kaist-cp/cs220
+- https://github.com/matklad/cargo-xtask
+- https://github.com/mgattozzi/whorl
+- https://github.com/rulex-rs/pomsky
+- https://github.com/rust-lang/rust/issues/43122
+- https://github.com/rust-unofficial/awesome-rust
+- https://github.com/tlepoint/fhe.rs
+- https://github.com/yoav-lavi/melody
+- https://github.com/zesterer/chumsky
+- https://neosmart.net/blog/2022/implementing-truly-safe-semaphores-in-rust/
+- https://people.kernel.org/linusw/rust-in-perspective
+- https://robert.kra.hn/posts/2022-09-09-speeding-up-incremental-rust-compilation-with-dylibs/
+- https://rust-lang.github.io/rfcs/3191-debugger-visualizer.html#summary
+- https://towardsdatascience.com/nine-rules-for-writing-python-extensions-in-rust-d35ea3a4ec29
+- https://www.possiblerust.com/pattern/non-generic-inner-functions
+- https://www.reddit.com/r/rust/comments/w521tx/cpp_for_rust_users/
+- https://www.youtube.com/watch?time_continue=2&v=-l-8WrGHEGI&feature=emb_title
+- https://www.youtube.com/watch?v=Ak7kDY3_eMI
+- https://youtu.be/6-8-9ZV-2WQ
+- https://youtu.be/iuY4CTCmClg
 
 ---
 ## talks-videos
@@ -255,5 +297,3 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 ---
 
 ## career-and-student-resources
-
-
