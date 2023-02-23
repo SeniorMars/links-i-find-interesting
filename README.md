@@ -11,6 +11,7 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 
 - [cool-ass-math](#cool-ass-math)
   - [math-blogs](#math-blogs)
+  - [latex](#latex)
 - [cool-cs-theory](#cool-cs-theory)
   - [exciting-cs-developments](#exciting-cs-developments)
   - [programming-languages](#programming-languages)
@@ -22,6 +23,8 @@ NOTE: This list is so long that it will take some time for it to be synced to my
   - [cs-tooling-or-sites](#cs-tooling-or-sites)
   - [cs-other](#cs-other)
   - [rust](#rust)
+  - [cs-blogs](#cs-blogs)
+- [books](#books)
 - [talks-videos](#talks-videos)
 - [career-and-student-resources](#career-and-student-resources)
 
@@ -32,6 +35,7 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 - http://www.math.wm.edu/~leemis/chart/UDR/UDR.html (*)
 - https://www.reddit.com/gallery/tfdd4t (*)
 - https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf (*)
+- https://www.nature.com/articles/nature.2016.20491
 - https://people.math.harvard.edu/~shani/Teaching/141/141A-Notes.pdf
 - https://math.hawaii.edu/~grw/Classes/2009-2010/2009Fall/Math442_1/439notes.pdf
 - https://www.esat.kuleuven.be/cosic/projects/isocrypt/workshops/
@@ -48,6 +52,7 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 - http://zhat.io/articles/primer-probability-theory
 - https://homotopytypetheory.org/book/
 - https://www.appliedcategorytheory.org/
+- https://www.math.columbia.edu/~woit/wordpress/?p=3056
 - https://www.reddit.com/r/math/comments/txca2p/patterns_in_the_cartesian_plane_under_bitwise_xor/
 - https://www.mathstat.dal.ca/~selinger/papers/lambdanotes.pdf
 - https://brilliant.org/wiki/lucas-theorem/
@@ -174,6 +179,10 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 - https://www.cut-the-knot.org/pythagoras/torque.shtml
 - https://math.berkeley.edu/~wu/
 
+### latex
+- https://raw.githubusercontent.com/vEnhance/dotfiles/main/texmf/tex/latex/evan/evan.sty
+- https://detexify.kirelabs.org/classify.html
+- https://mirrors.rit.edu/CTAN/macros/latex/contrib/annotate-equations/annotate-equations.pdf
 
 ---
 ## cool-cs-theory
@@ -194,14 +203,18 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 
 ### exciting-cs-developments
 - https://www.quantamagazine.org/formal-verification-creates-hacker-proof-code-20160920/
+- https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html
 
 ### programming-languages
+- http://www.paulgraham.com/icad.html (*)
 - http://www.thyer.name/phd-thesis/thesis-thyer.pdf
 - https://matt.might.net/articles/parsing-with-derivatives/
 - https://research.cs.queensu.ca/home/jana/papers/bidir-survey/Dunfield21_bidir-survey.pdf
 - https://www.pls-lab.org/en/Domain_Theory
+- https://blog.nindalf.com/posts/stop-citing-tiobe/
 
 ### low-level
+- https://zeux.io/2022/01/08/on-proebstings-law/
 
 ### security-cryptography
 - https://cronokirby.com/posts/2022/08/the-paper-that-keeps-showing-up/
@@ -209,23 +222,119 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 - https://arxiv.org/abs/1401.6488
 
 ### computer-graphics
+- https://iquilezles.org/ (*)
+- https://thebookofshaders.com/ (*)
+- https://www.realtimerendering.com/intersections.html (*)
+- https://epsln.github.io/blog/indraspearl_pt1/ (*)
+- https://coffeebeforearch.github.io/2020/06/23/mmul.html (*)
+- https://ninedegreesbelow.com/photography/xyz-rgb.html (*)
+- https://www.youtube.com/watch?v=GpsKrAipXm8 (*)
+- https://matlib.gpuopen.com/main/materials/all (*)
+- https://physicallybased.info/ (*)
+- https://www.scratchapixel.com/ (*)
+- https://www.gridbugs.org/wave-function-collapse/
+- https://www.diva-portal.org/smash/get/diva2:1691141/FULLTEXT01.pdf
+- https://www.youtube.com/watch?v=d4EgbgTm0Bg
+- https://bauble.studio/
+- https://nianticlabs.github.io/simplerecon/
+- https://www.youtube.com/watch?v=yG4ChOPyC-4
+- https://www.youtube.com/watch?v=GswISjlquoU
+- https://www.youtube.com/watch?v=BFld4EBO2RE
+- https://medium.com/geekculture/decompiling-nvidia-shaders-and-optimizing-5aeaeb65f828
+- https://nothings.org/gamedev/rasterize/
+- https://blog.selfshadow.com/
+- https://jcgt.org/
+- https://qoiformat.org/
+- https://github.com/kaveh808/kons-9
+- https://mrl.cs.nyu.edu/projects/image-analogies/
+- https://rosenzweig.io/blog/asahi-gpu-part-5.html
+- https://vksegfault.github.io/posts/gentle-intro-gpu-inner-workings/
+- http://simonrodriguez.fr/dragon/
+- https://adrianhesketh.com/2022/03/31/use-m1-gpu-with-go/
 - https://www.cs.cornell.edu/courses/cs4620/2008fa/lectures/09pipeline.pdf
-- https://www.realtimerendering.com/intersections.html
-- https://www.reddit.com/r/deepdream/comments/ujlvwg/chromatic_trip/
-- https://github.com/kmill/lean4-raytracer
 - https://www.skytopia.com/project/fractal/2mandelbulb.html
+- https://www.youtube.com/watch?v=tX4H_ctggYo
+- https://github.com/rust-cv
+- http://kylehalladay.com/blog/2020/05/20/Rendering-With-Notepad.html
+- https://marctenbosch.com/quaternions/
+- https://www.youtube.com/watch?v=hwaBaoAPOU0
+- https://www.duskborn.com/posts/a-simple-vulkan-compute-example/
+- https://www.reddit.com/r/generative/top/
+- https://www.reddit.com/r/proceduralgeneration/top/
+- https://www.chaoticafractals.com/
+- https://www.shadertoy.com/view/flKyzG
 
 ### machine-learning
 
+### cs-blogs
+- https://miles.land/
+- http://www.paulgraham.com/gh.html
+- https://prog21.dadgum.com/
+
+
 ### cs-tech-concerns
+- https://prog21.dadgum.com/154.html (*)
+- http://www.paulgraham.com/pypar.html (*)
+- https://cor3ntin.github.io/posts/abi/ (*)
+- https://www.netmeister.org/blog/plagiarism.html (*)
+- http://www.paulgraham.com/gba.html (*)
+- https://pg.ucsd.edu/publications/Microsoft-Windows-which-bugs-get-reassigned_CSCW-2011.pdf (*)
+- https://pg.ucsd.edu/publications/Microsoft-Windows-which-bugs-get-reassigned_CSCW-2011.pdf (*)
+- https://www.youtube.com/watch?v=bOzaimWuWec (*)
+- https://github.com/uBlockOrigin/uBlock-issues/issues/338 (*)
+- https://artemis.sh/2022/08/21/this-program-is-illegally-packaged-in-14-distributions.html (*)
+- https://dkb.blog/p/google-search-is-dying
+- https://www.nature.com/articles/d41586-022-01516-2
+- https://corecursive.com/040-tech-evangelism-with-gabriel-gonzalez/
+- https://9to5mac.com/2022/05/25/duckduckgo-privacy-microsoft-permission-tracking/
+- https://www.quantamagazine.org/computing-expert-says-programmers-need-more-math-20220517/
+- https://www.fsf.org/licensing/copilot
+- https://www.theatlantic.com/technology/archive/2014/08/advertising-is-the-internets-original-sin/376041/
+- https://rally.mozilla.org/current-studies/
+- https://www.reddit.com/r/TikTokCringe/comments/w1vte4/cs_students_showing_how_anyone_can_be_misogynistic/
+- https://kotaku.com/unity-john-riccitiello-monetization-mobile-ironsource-1849179898
+- https://docs.github.com/en/code-security/secret-scanning/secret-scanning-partner-program
+- https://velvetshark.com/articles/why-do-brands-change-their-logos-and-look-like-everyone-else
+- http://yosefk.com/blog/redundancy-vs-dependencies-which-is-worse.html
+- https://www.businessinsider.com/nearly-half-genz-use-tiktok-instagram-over-google-search-2022-7
+- https://techbeacon.com/app-dev-testing/test-production-yes-you-can-you-should
+- https://web.stanford.edu/class/cs240/old/sp2014/readings/worse-is-better.html
+- https://www.pcgamer.com/hacker-jailbreaks-control-unit-that-stops-farmers-repairing-their-tractors-then-runs-doom-on-it/
+- https://ghuntley.com/fracture/
+- https://aestheticsforbirds.com/2021/02/12/the-house-never-loses-how-microtransactions-exploit-video-game-players/
+- https://cfenollosa.com/blog/after-self-hosting-my-email-for-twenty-three-years-i-have-thrown-in-the-towel-the-oligopoly-has-won.html
+- https://twitter.com/stephenlacy/status/1554697077430505473
+- https://interviewing.io/blog/google-facebook-hiring-freeze
+- https://www.theguardian.com/technology/2022/sep/05/i-didnt-want-it-anywhere-near-me-how-the-apple-airtag-became-a-gift-to-stalkers
+- https://arstechnica.com/tech-policy/2022/09/ntsb-wants-alcohol-detection-systems-installed-in-all-new-cars-in-us/
+- https://dejanmarketing.com/competitor-hack/
+- https://www.abc.net.au/news/2022-11-14/former-prisoner-struggling-with-the-use-of-technology/101641072
+- https://stopscanningme.eu/en/
+- https://www.youtube.com/watch?v=WC1kPtG8Iz8
+- https://www.vice.com/en/article/pkgma8/police-are-using-dna-to-generate-3d-images-of-suspects-theyve-never-seen
+- https://iai.tv/articles/an-irrational-world-camus-auid-1578&utm_source=reddit&_auid=2020
+- https://www.consumerreports.org/electronics-computers/privacy/tiktok-tracks-you-across-the-web-even-if-you-dont-use-app-a4383537813/
+- https://mashable.com/article/meta-facebook-ai-chatbot-racism-donald-trump
+
 
 ### cs-tooling-or-sites
 - https://penrose.ink/
-- https://raw.githubusercontent.com/vEnhance/dotfiles/main/texmf/tex/latex/evan/evan.sty
-- https://detexify.kirelabs.org/classify.html
-- https://mirrors.rit.edu/CTAN/macros/latex/contrib/annotate-equations/annotate-equations.pdf
+- https://cdn.discordapp.com/attachments/530604566794862612/965494123878551592/Pinouts_V0.3.pdf
+- http://www.phrack.org/issues/7/3.html
+- https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/home
+- https://github.com/vadimdemedes/ink
+- https://www.getzola.org/documentation/getting-started/overview/
 
 ### cs-other
+- https://www.inkandswitch.com/end-user-programming/ (*)
+- https://utf8everywhere.org/ (*)
+- https://github.com/corollari/linusrants (*)
+- https://practicaltypography.com/
+- https://dustri.org/b/horrible-edge-cases-to-consider-when-dealing-with-music.html
+- https://medium.com/@sdboyer/so-you-want-to-write-a-package-manager-4ae9c17d9527
+- https://prog21.dadgum.com/149.html
+- https://world.hey.com/dhh/programmers-should-stop-celebrating-incompetence-de1a4725
+- https://gwern.net/co2-coin
 
 ### rust
 - https://rust-unofficial.github.io/patterns/ (*)
@@ -238,6 +347,9 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 - https://sdleffler.github.io/RustTypeSystemTuringComplete/ (*)
 - https://www.thecodedmessage.com/posts/2022-07-14-programming-unwrap/ (*)
 - https://zdimension.fr/how-i-learned-to-stop-worrying-and-love-macros/ (*)
+- https://nnethercote.github.io/perf-book/title-page.html (*)
+- https://wishawa.github.io/posts/thread-scoped-async/
+- https://aturon.github.io/blog/2015/09/18/reuse/
 - http://cosmic.mearie.org/2014/01/periodic-table-of-rust-types/
 - https://blog.m-ou.se/rust-cpp-concurrency/
 - https://cglab.ca/%7Eabeinges/blah/rust-btree-case/
@@ -272,7 +384,13 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 - https://youtu.be/iuY4CTCmClg
 
 ---
+
+## books
+- https://booksdrive.org/wp-content/uploads/2022/03/The-Pragmatic-Programmer-by-Andrew-Hunt-David-Hurst-Thomas.pdf (*)
+
+---
 ## talks-videos
+- https://www.youtube.com/watch?v=f6Dh5NjlZMk
 - https://www.youtube.com/watch?v=JH_Ou17_zyU 
 - https://www.youtube.com/watch?v=KH8z1IbXelk
 - https://www.youtube.com/playlist?list=PL0OBHndHAAZrGQEkOZGyJu7S7KudAJ8M9
@@ -297,3 +415,11 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 ---
 
 ## career-and-student-resources
+- http://www.paulgraham.com/college.html
+- https://prog21.dadgum.com/190.html
+- http://www.paulgraham.com/noob.html
+- https://prog21.dadgum.com/80.html
+- https://blog.rust-lang.org/inside-rust/2022/04/19/imposter-syndrome.html
+- https://prog21.dadgum.com/210.html
+- https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/
+- https://overreacted.io/things-i-dont-know-as-of-2018/
