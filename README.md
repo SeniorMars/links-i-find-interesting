@@ -13,6 +13,7 @@ NOTE: This list is so long that it will take some time for it to be synced to my
   - [math-blogs](#math-blogs)
   - [latex](#latex)
 - [cool-cs-theory](#cool-cs-theory)
+  - [cs-general](#cs-general)
   - [exciting-cs-developments](#exciting-cs-developments)
   - [programming-languages](#programming-languages)
   - [low-level](#low-level)
@@ -22,11 +23,15 @@ NOTE: This list is so long that it will take some time for it to be synced to my
   - [cs-tech-concerns](#cs-tech-concerns)
   - [cs-tooling-or-sites](#cs-tooling-or-sites)
   - [cs-other](#cs-other)
+  - [cs-courses](#cs-courses)
+  - [tutorials](#tutorials)
   - [rust](#rust)
   - [cs-blogs](#cs-blogs)
 - [books](#books)
+- [memes](#memes)
 - [talks-videos](#talks-videos)
 - [career-and-student-resources](#career-and-student-resources)
+- [linguistics](#linguistics)
 
 ---
 
@@ -35,6 +40,7 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 - http://www.math.wm.edu/~leemis/chart/UDR/UDR.html (*)
 - https://www.reddit.com/gallery/tfdd4t (*)
 - https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf (*)
+- http://www.lomont.org/papers/2003/InvSqrt.pdf
 - https://www.nature.com/articles/nature.2016.20491
 - https://people.math.harvard.edu/~shani/Teaching/141/141A-Notes.pdf
 - https://math.hawaii.edu/~grw/Classes/2009-2010/2009Fall/Math442_1/439notes.pdf
@@ -71,7 +77,7 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 - https://en.wikipedia.org/wiki/Glushkov%27s_construction_algorithm
 - https://zenodo.org/record/4457887#.YKPJcvaxVhE
 - https://arxiv.org/abs/2106.01484
-- https://math.rice.edu/~semmes/
+- https://math.rice.edu/~semmes/ (*)
 - https://www.theoremoftheday.org/
 - https://en.wikipedia.org/wiki/Proof_of_Bertrand%27s_postulate
 - http://abstract.ups.edu/download/aata-20210809.pdf
@@ -180,6 +186,7 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 - https://math.berkeley.edu/~wu/
 
 ### latex
+- https://aareyanmanzoor.github.io/Texromancers.html
 - https://raw.githubusercontent.com/vEnhance/dotfiles/main/texmf/tex/latex/evan/evan.sty
 - https://detexify.kirelabs.org/classify.html
 - https://mirrors.rit.edu/CTAN/macros/latex/contrib/annotate-equations/annotate-equations.pdf
@@ -188,7 +195,11 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 ## cool-cs-theory
 - https://avinayak.github.io/algorithms/programming/2021/02/19/finding-mona-lisa-in-the-game-of-life.html
 - https://www.youtube.com/watch?v=oEAa2pQKqQU
+- https://doisinkidney.com/posts/2021-03-14-hyperfunctions.html
+- https://www.tweag.io/blog/2020-04-23-deriving-isomorphically/
+- https://counterexamples.org/
 - https://www.reddit.com/r/compsci/comments/u0nvdv/artificial_life_simulation_dark_forest/?ref=share&ref_source=link
+- https://overreacted.io/algebraic-effects-for-the-rest-of-us/?utm_source=Morning+Cup+of+Coding&utm_campaign=f563363ee2-EMAIL_CAMPAIGN_2019_07_23_05_30&utm_medium=email&utm_term=0_56b5f64c5f-f563363ee2-56972441
 - http://liamoc.net/holbert/
 - https://www.cs.bham.ac.uk/~axj/pub/papers/handy1.pdf
 - https://www.cs.cmu.edu/~fp/courses/15814-f19/lectures/
@@ -200,21 +211,67 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 - https://www.sciencedirect.com/science/article/pii/S0304397515001735
 - https://calmcode.io/blog/inverse-turing-test.html
 - https://maartenfokkinga.github.io/utwente/mmf91m.pdf
+- https://thume.ca/2017/06/17/tree-diffing/
+- https://www.cs.cmu.edu/~qinsiw/thesis/q_wang_cs_2016.pdf
+- http://tom7.org/papers/
+- https://crypto.stanford.edu/~blynn/lambda/
+- https://www.hpl.hp.com/techreports/2003/HPL-2003-148.pdf
+- https://www.cl.cam.ac.uk/teaching/1617/L28/gadts.pdf
+
+### cs-general
+- https://www.sas.upenn.edu/~cavitch/pdf-library/Nagel_Bat.pdf (*)
+- https://home.sandiego.edu/~baber/analytic/Lem1979.html (*)
+- https://www.cse.unr.edu/~sushil/class/ai/notes/papers/coffeehouse.html (*)
+- https://a-blog-with.relevant-information.com/posts/solving_hard_problems_with_intelligent_brute_force_search/
+- http://wiki.c2.com/?GlobalVariablesAreBad
+- https://www.noulakaz.net/2007/03/18/a-regular-expression-to-check-for-prime-numbers/
+- 
+- https://arxiv.org/pdf/2203.16713.pdf
+- http://blog.kenficara.com/2013/06/30/irregular-language-and-regular-expressions/
+- https://blog.burntsushi.net/transducers/
+- https://peterellisjones.com/posts/generating-legal-chess-moves-efficiently/
 
 ### exciting-cs-developments
 - https://www.quantamagazine.org/formal-verification-creates-hacker-proof-code-20160920/
 - https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html
+- https://twitter.com/wasmerio/status/1232022730632904705
+- https://www.youtube.com/watch?v=sqNnN2Z4Lg4
+- https://openjdk.org/projects/amber/
+- https://github.com/rust-lang/rust/issues/32838
+- https://mail.openjdk.org/pipermail/jdk-dev/2022-May/006549.html
+- https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8aebac82933ff1a7c8eede18cab11e1115e2062b
+- https://jbaker.io/2022/05/09/project-loom-for-distributed-systems/
+- https://www.tweag.io/blog/2022-11-22-wasm-backend-merged-in-ghc/
+- https://kristoff.it/blog/zig-self-hosted-now-what/
+- https://twitter.com/manfightdragon/status/1576768394707161088
+- https://twitter.com/LinaAsahi/status/1575343067892051968
+- https://archlinux.org/news/removing-python2-from-the-repositories/
+- https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/
+- https://blog.torproject.org/arti_100_released/
+- https://twitter.com/croloris/status/1550955321694330880?s=20&t=r091_jm83tj9MMYhnR_WFw
+- https://github.com/readme/featured/functional-programming
+- https://blog.rust-lang.org/2022/07/01/RLS-deprecation.html
+- https://vimhelp.org/version9.txt.html#new-9
 
 ### programming-languages
 - http://www.paulgraham.com/icad.html (*)
+- https://github.com/alhassy/PrologCheatSheet
+- https://github.com/golang-design/history
+- https://www.morling.dev/blog/loom-and-thread-fairness/
+- https://gavinhoward.com/2022/04/i-believe-zig-has-function-colors/
 - http://www.thyer.name/phd-thesis/thesis-thyer.pdf
+- https://www.pyret.org/index.html
 - https://matt.might.net/articles/parsing-with-derivatives/
 - https://research.cs.queensu.ca/home/jana/papers/bidir-survey/Dunfield21_bidir-survey.pdf
 - https://www.pls-lab.org/en/Domain_Theory
 - https://blog.nindalf.com/posts/stop-citing-tiobe/
+- https://blog.ironmansoftware.com/daily-powershell/bash-powershell-cheatsheet/
 
 ### low-level
 - https://zeux.io/2022/01/08/on-proebstings-law/
+- https://vikramoberoi.com/a-primer-on-roaring-bitmaps-what-they-are-and-how-they-work/
+- https://www.davidsalomon.name/assem.advertis/asl.pdf
+- https://graphics.stanford.edu/~seander/bithacks.html
 
 ### security-cryptography
 - https://cronokirby.com/posts/2022/08/the-paper-that-keeps-showing-up/
@@ -265,10 +322,37 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 - https://www.shadertoy.com/view/flKyzG
 
 ### machine-learning
+- https://www.cis.upenn.edu/~jean/math-deep.pdf (*)
+- https://truyentran.github.io/phd.html (*)
+- https://www.nature.com/articles/nature14539 (*)
+- https://www.inference.org.uk/itprnn/book.pdf (*)
+- https://jalammar.github.io/illustrated-stable-diffusion/ (*)
+- https://github.com/labmlai/annotated_deep_learning_paper_implementations (*)
+- https://bair.berkeley.edu/blog/2022/05/20/crosswords/
+- https://www.probabilistic-numerics.org/textbooks/
+- https://arxiv.org/pdf/2108.02497.pdf (*)
+- https://mml-book.github.io/
+- https://towardsdatascience.com/stable-diffusion-best-open-source-version-of-dall-e-2-ebcdf1cb64bc
+- https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+- https://arxiv.org/pdf/1601.06733.pdf
+- https://thegradient.pub/graph-neural-networks-beyond-message-passing-and-weisfeiler-lehman/
+- http://neuralnetworksanddeeplearning.com/chap1.html
+- https://arxiv.org/abs/2003.14169
+- https://www.youtube.com/watch?v=Lq-Y7crQo44
+- https://spectrum.ieee.org/deep-learning-computational-cost
+- https://github.com/vaaaaanquish/Awesome-Rust-MachineLearning
+- https://joe-antognini.github.io/ml/consciousness
+- https://github.com/MrinmoiHossain/Reinforcement-Learning-Specialization-Coursera/blob/master/Book/Reinforcement%20Learning%20An%20introduction%20(Second%20Edition)%20by%20Richard%20S.%20Sutton%20and%20Andrew%20G.%20Barto.pdf
+- https://www.joelsimon.net/evo_floorplans.html
+- https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf
+- https://pub.towardsai.net/stable-diffusion-based-image-compresssion-6f1f0a399202
 
 ### cs-blogs
+- https://www.ruder.io/
+- http://blog.cleancoder.com/uncle-bob/2015/11/18/TheProgrammersOath.html
 - https://miles.land/
 - http://www.paulgraham.com/gh.html
+- https://lucatrevisan.wordpress.com/
 - https://prog21.dadgum.com/
 
 
@@ -280,6 +364,7 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 - http://www.paulgraham.com/gba.html (*)
 - https://pg.ucsd.edu/publications/Microsoft-Windows-which-bugs-get-reassigned_CSCW-2011.pdf (*)
 - https://pg.ucsd.edu/publications/Microsoft-Windows-which-bugs-get-reassigned_CSCW-2011.pdf (*)
+- https://github.com/srevinsaju/Firefox-Appimage/issues/26 (*)
 - https://www.youtube.com/watch?v=bOzaimWuWec (*)
 - https://github.com/uBlockOrigin/uBlock-issues/issues/338 (*)
 - https://artemis.sh/2022/08/21/this-program-is-illegally-packaged-in-14-distributions.html (*)
@@ -318,23 +403,73 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 
 
 ### cs-tooling-or-sites
+- https://shorterlife.github.io/challenge/ (*)
 - https://penrose.ink/
 - https://cdn.discordapp.com/attachments/530604566794862612/965494123878551592/Pinouts_V0.3.pdf
 - http://www.phrack.org/issues/7/3.html
 - https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/home
 - https://github.com/vadimdemedes/ink
 - https://www.getzola.org/documentation/getting-started/overview/
+- https://dirk.rave.org/combinatris/
+- https://makeavideo.studio/
+- https://tauri.app/
 
 ### cs-other
+- https://btm.qva.mybluehost.me/building-arbitrary-life-patterns-in-15-gliders/ (*)
 - https://www.inkandswitch.com/end-user-programming/ (*)
 - https://utf8everywhere.org/ (*)
 - https://github.com/corollari/linusrants (*)
+- https://mrotherguy.github.io/ToyfoCSS/
+- https://www.ma.imperial.ac.uk/~buzzard/xena/natural_number_game/
+- https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.222.6996&rep=rep1&type=pdf
+- https://nedbatchelder.com/text/unipain.html
+- http://http://http://@http://http://?http://#http://
+- https://github.com/girliemac/a-picture-is-worth-a-1000-words
+- https://archivesspace.mit.edu/repositories/2/resources/1305
 - https://practicaltypography.com/
 - https://dustri.org/b/horrible-edge-cases-to-consider-when-dealing-with-music.html
 - https://medium.com/@sdboyer/so-you-want-to-write-a-package-manager-4ae9c17d9527
+- https://www.expasy.org/
 - https://prog21.dadgum.com/149.html
 - https://world.hey.com/dhh/programmers-should-stop-celebrating-incompetence-de1a4725
+- https://github.com/csurfer/pyheat
+- https://nlp.stanford.edu/projects/glove/
 - https://gwern.net/co2-coin
+
+### cs-courses
+- https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/
+- https://github.com/system-f/fp-course
+- https://www.cs.rice.edu/~as143/COMP480_580_Fall22/index.html
+- https://github.com/dddrrreee/cs240lx-22spr/blob/main/labs/README.md
+- https://github.com/dddrrreee/cs140e-20win
+- https://student.cs.uwaterloo.ca/~cs452/S22/
+- https://peterellisjones.com/posts/generating-legal-chess-moves-efficiently/
+- https://plfa.github.io/
+- https://leanprover-community.github.io/learn.html
+- https://www.cis.upenn.edu/~cis1940/fall16/
+
+### tutorials and other learning resources
+- https://mukulrathi.com/create-your-own-programming-language/intro-to-type-checking/
+- http://aosabook.org/en/llvm.html
+- https://github.com/jbrkr/Category_Theory_Natural_Language_Processing_NLP
+- https://github.com/MattPD/cpplinks
+- https://cirosantilli.com/x86-paging
+- https://doc.rust-lang.org/stable/rust-by-example/
+- https://github.com/chassing/linux-sysadmin-interview-questions
+- https://www.leshenko.net/p/ugit/#
+- https://github.com/codecrafters-io/build-your-own-x
+- https://vim.rtorr.com/
+- https://kean.blog/post/lets-build-regex
+- https://g-w1.github.io/blog/zig/low-level/2021/03/15/elf-linux.html
+- https://forem.julialang.org/wikfeldt/a-brief-tour-of-julia-for-high-performance-computing-5deb
+- https://pragprog.com/titles/rshaskell/effective-haskell/
+- https://www.cis.upenn.edu/~cis1940/spring13/lectures/01-intro.html
+- https://scipy-lectures.org/advanced/advanced_numpy/index.html#advanced-numpy
+- https://hal.inria.fr/inria-00564007/document
+- https://blog.paperspace.com/numpy-optimization-vectorization-and-broadcasting/
+- https://github.com/rougier/scientific-visualization-book
+- https://jfmc.github.io/z3-play/
+- https://ordep.dev/posts/my-favorite-papers
 
 ### rust
 - https://rust-unofficial.github.io/patterns/ (*)
@@ -348,6 +483,8 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 - https://www.thecodedmessage.com/posts/2022-07-14-programming-unwrap/ (*)
 - https://zdimension.fr/how-i-learned-to-stop-worrying-and-love-macros/ (*)
 - https://nnethercote.github.io/perf-book/title-page.html (*)
+- https://rust-lang.github.io/api-guidelines/about.html (*)
+- https://cheats.rs/
 - https://wishawa.github.io/posts/thread-scoped-async/
 - https://aturon.github.io/blog/2015/09/18/reuse/
 - http://cosmic.mearie.org/2014/01/periodic-table-of-rust-types/
@@ -382,14 +519,41 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 - https://www.youtube.com/watch?v=Ak7kDY3_eMI
 - https://youtu.be/6-8-9ZV-2WQ
 - https://youtu.be/iuY4CTCmClg
+- https://www.crowdstrike.com/blog/data-science-test-drive-of-rust-programming-language/
+- https://github.com/rust-ml/linfa
+- https://github.com/Rust-GPU/Rust-CUDA
+- https://github.com/tensorflow/rust
+- https://able.bio/haixuanTao/data-manipulation-polars-vs-rust--3def44c8
+- https://www.orchest.io/blog/the-great-python-dataframe-showdown-part-3-lightning-fast-queries-with-polars
 
 ---
 
 ## books
 - https://booksdrive.org/wp-content/uploads/2022/03/The-Pragmatic-Programmer-by-Andrew-Hunt-David-Hurst-Thomas.pdf (*)
+- https://ibm.github.io/neuro-symbolic-ai/events/ns-summerschool2022/ (*)
+- https://hackernewsbooks.com/
+- https://divisbyzero.com/tales-of-impossibility/
+- https://softwarefoundations.cis.upenn.edu/
+- https://algebradriven.design/
+- https://thinkingwithtypes.com/
+- https://mitpress.mit.edu/9780262045490/
+- https://github.com/joeycastillo/The-Open-Book
+- https://github.com/hackerkid/Mind-Expanding-Books
+- https://github.com/hmemcpy/milewski-ctfp-pdf/
+- https://standardebooks.org/
+- http://learnyouahaskell.com/
+- 99 Variations on a Proof
+- https://the-eye.eu/public/Books/
+- https://scalawagmagazine.org/2021/09/banned-books-texas-prisons/
+- https://americanlibrariesmagazine.org/blogs/the-scoop/prisoners-pay-to-read-prison-tablets/
+- https://codersatwork.com/
+- https://link.springer.com/book/10.1007/978-0-387-48278-1
+- https://dev.realworldocaml.org/index.html
+- https://www.gutenberg.org/
 
 ---
 ## talks-videos
+- https://www.youtube.com/watch?v=W4Mcuh38wyM (*)
 - https://www.youtube.com/watch?v=f6Dh5NjlZMk
 - https://www.youtube.com/watch?v=JH_Ou17_zyU 
 - https://www.youtube.com/watch?v=KH8z1IbXelk
@@ -411,15 +575,60 @@ NOTE: This list is so long that it will take some time for it to be synced to my
 - https://www.youtube.com/watch?v=zR_hpai3XkY
 - https://www.youtube.com/watch?v=88BA8aO3qXA
 - https://www.youtube.com/watch?v=icrXmYHnU9E
-- https://www.youtube.com/watch?v=9syvZr-9xwk&list=PLUl4u3cNGP60_JNv2MmK3wkOt9syvfQWY&t=1795s
+- https://www.youtube.com/watch?v=9syvZr-9xwk&list=PLUl4u3cNGP60_JNv2MmK3wkOt9syvfQWY
+- https://www.youtube.com/c/t3ssel8r
 ---
 
+### memes
+- https://github.com/zhuowei/nft_ptr
+- https://blog.plover.com/prog/burritos.html
+- https://leanprover.github.io/
+- https://rudism.com/vim-creep/
+- https://regexcrossword.com/
+- http://jimbly.github.io/regex-crossword/
+- https://stackoverflow.com/questions/17279712/what-is-the-smallest-possible-valid-pdf/17280876#17280876
+
+
+---
+
+
 ## career-and-student-resources
+- https://www.eecs.harvard.edu/htk/phdadvice/#1 (*)
+- https://karpathy.github.io/2016/09/07/phd/ (*)
+- https://matt.might.net/articles/what-cs-majors-should-know/ (*)
+- https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf (*)
+- https://jsomers.net/i-should-have-loved-biology/ (*)
+- https://www.cs.toronto.edu/~miller/resources.html
+- https://github.com/mtdvio/every-programmer-should-know
+- https://cs.stanford.edu/people/widom/paper-writing.html
+- https://matt.might.net/articles/how-to-apply-and-get-in-to-graduate-school-in-science-mathematics-engineering-or-computer-science/
+- https://conquer.cra.org/students/applying
+- https://reufinder.com/
+- https://graduate.dartmouth.edu/student-support/career-services/interview-practice-techniques/interviewing-academic-job
+- https://refactoring.guru/design-patterns/catalog
+- https://ibm.github.io/neuro-symbolic-ai/events/ns-summerschool2022/
+- https://www.redblobgames.com/
+- https://hackingcpp.com/cpp/cheat_sheets.html
 - http://www.paulgraham.com/college.html
+- https://noted.lol/back-to-school-self-hosted-edition/
+- https://pub.towardsai.net/make-your-matplotlib-plots-stand-out-using-this-cheat-sheet-8c666de90433
 - https://prog21.dadgum.com/190.html
 - http://www.paulgraham.com/noob.html
 - https://prog21.dadgum.com/80.html
 - https://blog.rust-lang.org/inside-rust/2022/04/19/imposter-syndrome.html
+- https://nomadlist.com/
 - https://prog21.dadgum.com/210.html
 - https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/
 - https://overreacted.io/things-i-dont-know-as-of-2018/
+- https://www.natolambert.com/writing/ai-phd-job-hunt
+- https://engineering.virginia.edu/internships-and-summer-experiences-1st-and-2nd-years
+- https://cims.nyu.edu/ai/educational-programs/pathways-ai/
+
+---
+## linguistics
+- https://restofworld.org/2021/bringing-urdu-into-the-digital-age/
+- https://github.com/gentaiscool/code-switching-papers
+- https://blog.juliosong.com/linguistics/mathematics/a-new-application-of-category-theory-in-linguistics-part-1/#top
+- https://golem.ph.utexas.edu/category/2018/02/linguistics_using_category_the.html
+- https://johncarlosbaez.wordpress.com/2018/02/11/linguistics-using-category-theory/
+- https://www.denizcemonduygu.com/philo/browse/
